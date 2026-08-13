@@ -8,10 +8,12 @@
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+    
 }
 
 body {
     margin: 0;
+    font-family: Quicksand, sans-serif;
 }
 
 /* ESTILOS DE LA PÁGINA DE LOGIN */
@@ -88,6 +90,29 @@ body {
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.email-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.resend {
+    color: var(--rojo);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* RESPONSIVE PARA PANTALLAS GRANDES */
