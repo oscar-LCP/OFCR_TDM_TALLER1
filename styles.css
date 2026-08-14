@@ -149,9 +149,25 @@ a:hover {
     align-items: center;
     box-sizing: border-box;
 }
+
 /* RESPONSIVE PARA PANTALLAS GRANDES */
 @media (max-width: 640px) {
     .logo {
         display: block;
+    }
+
+    .login {
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 300px;
+    }
+}
+
+/***********************/
+@media (min-width: 641px) {
+    .form-containter {
+        width: 400px;
     }
 }
