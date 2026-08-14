@@ -115,8 +115,32 @@ body {
     font-weight: 500;
 }
 
+#red {
+    color: var(--rojo);
+}
+
 #bold {
     font-weight: 600;
+}
+
+.alternative-button {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: var(--rojo) 1px solid;
+    color: var(--rojo);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* RESPONSIVE PARA PANTALLAS GRANDES */
