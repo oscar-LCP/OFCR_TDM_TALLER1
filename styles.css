@@ -143,6 +143,12 @@ a:hover {
   text-decoration: none;
 }
 
+.a-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
 /* RESPONSIVE PARA PANTALLAS GRANDES */
 @media (max-width: 640px) {
     .logo {
